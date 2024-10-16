@@ -16,7 +16,7 @@ public class register {
         while(rs.next()){
             String email1=rs.getString("Email");
             if(email1.equals(email)) {
-                System.out.println("E-mail Id Already Registered");
+                System.out.println("E-mail Id Already Exist");
                 return;
             }
         }
